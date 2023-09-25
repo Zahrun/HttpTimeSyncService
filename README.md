@@ -1,2 +1,2 @@
 # HttpTimeSyncService
-Time sync service when NTP is not possible
+Service to synchronise time via http when NTP is not possible
