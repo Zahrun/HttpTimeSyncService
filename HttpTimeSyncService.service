@@ -1,0 +1,13 @@
+[Unit]
+Description=HttpTimeSyncService
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=3
+ExecStart=/usr/bin/http_time_sync_service.sh
+
+[Install]
+WantedBy=multi-user.target
