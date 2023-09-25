@@ -7,7 +7,7 @@ StartLimitIntervalSec=0
 Type=simple
 Restart=always
 RestartSec=3
-ExecStart=/usr/bin/http_time_sync_service.sh
+ExecStart=/usr/bin/http_time_syncd.sh
 
 [Install]
 WantedBy=multi-user.target
